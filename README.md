@@ -93,6 +93,11 @@ JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 AUTHOR = u'Your name'
 AUTHOR_ABOUT = u'Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice.'
 
+#  If not set, defaults to SITEURL/images/avatar.jpg
+#  Do not include preceding /
+AVATAR = 'static/images/avatar.png'
+
+
 SITENAME = u'Site Title'
 SITEURL = ''
 
