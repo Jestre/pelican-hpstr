@@ -136,6 +136,12 @@ THEME = 'theme/pelican-hpstr'
 BACKGROUND = 'bg_image.png'
 ABOUT_PAGE = 'about.html'
 
+# Blogroll / Links
+LINKS = (('Pelican', 'http://getpelican.com/'),
+         ('Python.org', 'http://python.org/'),
+         ('Jinja2', 'http://jinja.pocoo.org/'),
+         ('You can modify those links in your config file', '#'),)
+
 # Social widgets
 SOCIAL = (('github', 'https://github.com/yourname', 'GitHub'),
           ('twitter', 'http://twitter.com/yourname'),

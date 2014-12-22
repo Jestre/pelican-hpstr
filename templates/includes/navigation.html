@@ -25,6 +25,16 @@
                 {% endfor %}
             </ul><!-- /.dl-submenu -->
         </li>
+        {% if LINKS %}
+        <li>
+            <a href="#">{{ _('Links') }}</a>
+            <ul class="dl-submenu">
+            {% for title, link in LINKS %}
+                <li><a href="{{ link }}">{{ title }}</a></li>
+            {% endfor %}
+            </ul>
+        </li>
+        {% endif %}
         <li>
             <a href="#">{{ _('Posts') }}</a>
             <ul class="dl-submenu">
